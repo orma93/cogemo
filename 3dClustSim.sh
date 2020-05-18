@@ -4,6 +4,8 @@
 workdir=/Volumes/Zeus/MMY1_EmoSnd/analysis_fm/seedbasedconn_n50/Cond_cor_errts
 values=`cat $workdir/mean_acf.txt`
 
+# mean ACF values = 0.724  3.060  10.809
+
 3dClustSim \
    -acf $values \
    -mask ~/standard/mni_icbm152_nlin_asym_09c/mni_icbm152_gm_tal_nlin_asym_09c_3mm.nii
