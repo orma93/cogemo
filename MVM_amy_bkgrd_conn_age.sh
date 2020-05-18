@@ -3,7 +3,7 @@
 
 # 3dMVM script used to run whole-brain voxelwie connectivity analydis
 # Seeded on bilateral amygdala ROI
-# Input data files are residuals from 3dDeconvolve (task effects removed)
+# Input data files are the voxelwise connectivity values computed from DoConDecon.sh
 # Controlling for sex interaction
 # Also controlling for mean frame displacement from that subject's resting state data (to control for head motion)
 # Masking to include gray matter only
