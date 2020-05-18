@@ -1,7 +1,7 @@
   
 #!/bin/bash
 
-# 3dMVM script used to run whole-brain voxelwie connectivity analydis
+# 3dMVM script used to run whole-brain voxelwise connectivity analysis
 # Seeded on bilateral amygdala ROI
 # Input data files are the voxelwise connectivity values computed from DoConDecon.sh
 # Controlling for sex interaction
