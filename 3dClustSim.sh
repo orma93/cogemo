@@ -1,7 +1,7 @@
   
 #!/bin/bash
 
-workdir=/Volumes/Zeus/MMY1_EmoSnd/analysis_fm/task_effects_n50
+workdir=/Volumes/Zeus/MMY1_EmoSnd/analysis_fm/seedbasedconn_n50/Cond_cor_errts
 values=`cat $workdir/mean_acf.txt`
 
 3dClustSim \
